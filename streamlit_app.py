@@ -46,6 +46,7 @@ def load_model(model_file):
 # Add a title and info about the app
 st.title('AMPredST: Antimicrobial peptides prediction streamlit app')
 """
+thank you
 """
 
 with st.expander('About this app'):
@@ -89,15 +90,10 @@ st.sidebar.button('Clear input', on_click=clear_peptide)
 
 st.sidebar.header('Code availability')
 
-st.sidebar.write('The code for this project is available under the [MIT License](https://mit-license.org/) in this [GitHub repo](https://github.com/sayalaruano/ML_AMPs_prediction_streamlitapp). If you use or modify the source code of this project, please provide the proper attributions for this work.')
 
-st.sidebar.header('Support')
 
-st.sidebar.write('If you like this project, please give it a star on the [GitHub repo](https://github.com/sayalaruano/ML_AMPs_prediction_streamlitapp) and share it with your friends. Also, you can support me by [buying me a coffee](https://www.buymeacoffee.com/sayalaruano).')
 
-st.sidebar.header('Contact')
 
-st.sidebar.write('If you have any comments or suggestions about this work, please DM by [twitter](https://twitter.com/sayalaruano) or [create an issue](https://github.com/sayalaruano/ML_AMPs_prediction_streamlitapp/issues/new) in the GitHub repository of this project.')
 
 
 if st.session_state.peptide_input == '':
