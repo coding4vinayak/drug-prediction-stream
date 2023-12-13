@@ -46,7 +46,6 @@ def load_model(model_file):
 # Add a title and info about the app
 st.title('AMPredST: Antimicrobial peptides prediction streamlit app')
 """
-[![](https://img.shields.io/github/stars/sayalaruano/ML_AMPs_prediction_streamlitapp?style=social)](https://github.com/sayalaruano/ML_AMPs_prediction_streamlitapp) &nbsp; [![](https://img.shields.io/twitter/follow/sayalaruano?style=social)](https://twitter.com/sayalaruano)
 """
 
 with st.expander('About this app'):
